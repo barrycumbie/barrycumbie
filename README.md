@@ -1,4 +1,10 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Barry A. Cumbie =======================================================================================================================================  Associate Professor, CS & IS, The University of North Alabama -------------------------------------------------------------  I'm all about getting our students fully equipped to start their careers, building full-stack, data-driven, RESTful API, MVC, SPAs & the Agile SysDev Approach.  * 🌍  I'm based in Florence, AL * 🖥️  See my portfolio at [🚀 Barry's LaunchPage](http://barrycumbie.com)
+# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Barry A. Cumbie 
+
+## Associate Professor, CS & IS, The University of North Alabama 
+
+I'm all about getting our students fully equipped to start their careers, building full-stack, data-driven, RESTful API, MVC, SPAs & the Agile SysDev Approach.  
+- 🌍  I'm based in Florence, AL 
+- 🖥️  See my portfolio at [🚀 Barry's LaunchPage](http://barrycumbie.com)
 
 <a href="https://www.github.com/barrycumbie" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/barrycumbie?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 ### Skills  
