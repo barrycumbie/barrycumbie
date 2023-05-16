@@ -1,4 +1,5 @@
-# Hi 👋 My name is Barry A. Cumbie 
+# Hi My name is Barry A. Cumbie, hire me 💸
+
 
 Associate Professor, CS & IS, The University of North Alabama 
 
