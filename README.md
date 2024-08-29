@@ -1,7 +1,7 @@
 # Hi My name is Barry A. Cumbie, hire me 💸
 
 
-Associate Professor, CS & IS, The University of North Alabama 
+Professor, CS & IS, The University of North Alabama 
 
 I'm all about getting our students fully equipped to start their careers, building full-stack, data-driven, RESTful API, MVC, SPAs & the Agile SysDev Approach.  * 🌍  I'm based in Florence, AL * 🖥️  See my portfolio at [🚀 Barry's LaunchPage](http://barrycumbie.com)
 
