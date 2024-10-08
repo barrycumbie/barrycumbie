@@ -1,5 +1,7 @@
 # Hi My name is Barry A. Cumbie, hire me 💸
 
+![stolen-cat-pic](https://github.com/user-attachments/assets/59f7bf64-426f-4f17-9301-36799d88d24d)
+
 
 Professor, CS & IS, The University of North Alabama 
 
