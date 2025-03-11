@@ -5,6 +5,8 @@
 
 Professor, CS & IS, The University of North Alabama 
 
+[376 🦭 Web Dev Topics](https://gist.github.com/barrycumbie/6347ffc452c988d92208f59eac88bdd9)
+
 I'm all about getting our students fully equipped to start their careers, building full-stack, data-driven, RESTful API, MVC, SPAs & the Agile SysDev Approach.  * 🌍  I'm based in Florence, AL * 🖥️  See my portfolio at [🚀 Barry's LaunchPage](http://barrycumbie.com)
 
 <a href="https://www.github.com/barrycumbie" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/barrycumbie?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
