@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body id="cat">
+  
+</body>
+</html>
+
+<script>
+
+
+classScores = [
+ // this is an array that will have individual objects in it! 
+
+
+{
+name: "barry",
+github: "barrycumbie", 
+scores: [
+  {round: "warm up", finalScore: "56"},
+  {round: "round 1", finalScore: "63"},
+  {round: "play in 1", finalScore: "69"},
+  {round: "play in 2", finalScore: "66"},
+  {round: "elite 8", finalScore: "70"},
+  {round: "final 4", finalScore: "67"},
+  {round: "championship", finalScore: "70"},
+  {round: "exhibition", finalScore: "54"}
+], 
+overallImg: "https://github.com/user-attachments/assets/75221d74-ede5-4aaf-b324-f30ef1ed2b75"
+},
+
+{
+name: "barry",
+github: "barrycumbie", 
+scores: [
+  {round: "warm up", finalScore: "56"},
+  {round: "round 1", finalScore: "63"},
+  {round: "play in 1", finalScore: "69"},
+  {round: "play in 2", finalScore: "66"},
+  {round: "elite 8", finalScore: "70"},
+  {round: "final 4", finalScore: "67"},
+  {round: "championship", finalScore: "70"},
+  {round: "exhibition", finalScore: "54"}
+], 
+overallImg: "https://github.com/user-attachments/assets/75221d74-ede5-4aaf-b324-f30ef1ed2b75"
+},
+
+]
+
+let docBody = document.getElementById('cat'); 
+docBody.innerText = `
+  ${classScores[0].name} and ${classScores[1].overallImg} and ${classScores[1].scores[0].round} and ${classScores[1].scores[0].finalScore}  `;
+
+</script>
