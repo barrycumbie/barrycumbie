@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swaap');
 /* at import go right at the top */
 
+/* todo: add svg background */
+
 h1 {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
