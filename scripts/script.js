@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Document is ready
-  console.log("hello console!");
+  console.log("hello console! document be ready! ");
   addExampleBlogEntry();
   setStandardCookie();
   displayUserProfile();
+  console.log(myFunction()); 
 });
 
 function addExampleBlogEntry() {
@@ -12,9 +13,9 @@ function addExampleBlogEntry() {
     const entry = document.createElement('div');
     entry.className = 'blog-entry';
     entry.innerHTML = `
-      <h5><i class="bi bi-pencil-square"></i> Example Blog Entry</h5>
+      <h5><i class="bi bi-pencil-square"></i> dynamic mutated dom Blog Entry</h5>
       <p>This is an example blog entry added when the page loads.</p>
-    `;
+    `    
     blogEntries.prepend(entry);
   }
 }

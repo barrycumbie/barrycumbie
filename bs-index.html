@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Profile</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/floppy.svg">
+  
+  <link rel="shortcut icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/floppy.svg">
+  
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <i class="bi bi-person-circle me-2"></i>Dev Profile
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-journal-text"></i> Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-kanban"></i> Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-link-45deg"></i> Resources</a>
+        </li>
+        <!-- Login icon and link on the far right -->
+        <li class="nav-item ms-3">
+          <a class="nav-link border rounded-pill px-3 d-flex align-items-center" href="#">
+            <i class="bi bi-box-arrow-in-right me-1"></i>
+            <span>Login</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card border-0">
+        <img src="https://picsum.photos/20" class="card-img-top img-fluid" alt="Profile Photo">
+        <div class="card-body">
+          <h5 class="card-title text-primary"><i class="bi bi-person-badge"></i> John Doe</h5>
+          <p class="card-text"><span class="badge bg-success"><i class="bi bi-code-slash"></i> Web Developer</span></p>
+          <p class="card-text"><i class="bi bi-envelope"></i> johndoe@example.com</p>
+          <p class="card-text"><i class="bi bi-telephone"></i> (123) 456-7890</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-primary mb-0 header-bg"><i class="bi bi-journal-code "></i> Developer Blog</h2>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addBlogModal">
+          <i class="bi bi-plus-circle"></i> Add Entry
+        </button>
+      </div>
+      <div id="blog-entries">
+        <div class="blog-entry">
+          <h5><i class="bi bi-pencil-square"></i> Blog Post Title</h5>
+          <p>Excerpt from the blog post...</p>
+        </div>
+        <div class="blog-entry">
+          <h5><i class="bi bi-pencil-square"></i> Another Blog Post Title</h5>
+          <p>Excerpt from another blog post...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-8">
+      <h2 class="text-primary header-bg"><i class="bi bi-kanban"></i> Projects</h2>
+      <div class="d-flex flex-row gap-3 flex-nowrap overflow-auto">
+        <div class="card shadow-sm text-center" style="min-width: 180px; aspect-ratio: 1 / 1;">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-lightbulb display-4 mb-2 text-primary"></i>
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text small">Description</p>
+          </div>
+        </div>
+        <div class="card shadow-sm text-center" style="min-width: 180px; aspect-ratio: 1 / 1;">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-lightbulb display-4 mb-2 text-primary"></i>
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text small">Description</p>
+          </div>
+        </div>
+        <div class="card shadow-sm text-center" style="min-width: 180px; aspect-ratio: 1 / 1;">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-lightbulb display-4 mb-2 text-primary"></i>
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text small">Description</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <h2 class="text-primary header-bg"><i class="bi bi-link-45deg"></i> Resources</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="#"><i class="bi bi-link-45deg"></i> Resource Link 1</a></li>
+        <li class="list-group-item"><a href="#"><i class="bi bi-link-45deg"></i> Resource Link 2</a></li>
+        <li class="list-group-item"><a href="#"><i class="bi bi-link-45deg"></i> Resource Link 3</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-primary text-white text-center mt-4 py-3 shadow">
+  <p class="mb-0">
+    <i class="bi bi-c-circle footer-icon"></i>
+    2023 John Doe. All rights reserved.
+  </p>
+</footer>
+
+<!-- Add Blog Entry Modal -->
+<div class="modal fade" id="addBlogModal" tabindex="-1" aria-labelledby="addBlogModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <form id="addBlogForm" class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addBlogModalLabel"><i class="bi bi-pencil-square"></i> New Blog Entry</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="blogTitle" class="form-label">Title</label>
+          <input type="text" class="form-control" id="blogTitle" required>
+        </div>
+        <div class="mb-3">
+          <label for="blogContent" class="form-label">Content</label>
+          <textarea class="form-control" id="blogContent" rows="3" required></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Add</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
+<script>
+document.getElementById('addBlogForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const title = document.getElementById('blogTitle').value;
+  const content = document.getElementById('blogContent').value;
+  const blogEntries = document.getElementById('blog-entries');
+  const entry = document.createElement('div');
+  entry.className = 'blog-entry';
+  entry.innerHTML = `<h5><i class="bi bi-pencil-square"></i> ${title}</h5><p>${content}</p>`;
+  blogEntries.prepend(entry);
+  // Reset form and close modal
+  this.reset();
+  var modal = bootstrap.Modal.getInstance(document.getElementById('addBlogModal'));
+  modal.hide();
+});
+</script>
+
+</body>
+</html>
