@@ -32,9 +32,9 @@
             <a class="nav-link" href="#">Link</a>
           </li>
           
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+          </li> -->
         </ul>
 
       </div>
@@ -56,7 +56,7 @@
         <div class="card-footer">
           <a href="#" class="card-link">Card link</a>
           <a href="#" class="card-link">Another link</a>
-          <a href="#" class="btn btn-primary">See Profile</a>
+          <a href="#" class="btn btn-warning fw-bold">See Profile</a>
         </div>  
       </div>
 
@@ -76,20 +76,60 @@
     </div>
   </div>
 
-  <!-- 2nd row: projects & resources -->
-  <div class="row mt-4 border border-1">
-    <div class="col-md-8">dev projects go here</div>
-    <div class="col-md-4">dev resources go here</div>
+<!-- 2nd row: projects & resources -->
+ <div class="row mt-4">
+    <div class="col-md-8">
+      <h2 class="text-primary header-bg"><i class="bi bi-kanban"></i>Projects</h2>
+      <div class="d-flex flex-row gap-3 flex-nowrap overflow-auto">
+        <div class="card shadow-sm text-center" style="min-width: 180px; aspect-ratio: 1 / 1;">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-lightbulb display-4 mb-2 text-primary"></i>
+            <h5 class="card-title">Super Game!</h5>
+            <p class="card-text small">An example game</p>
+            <div class="card-footer">
+              <a href="https://barrycumbie.github.io/literate-dollop-superGame/" target="_blank" class="btn btn-primary"><i class="bi bi-joystick">Play SuperGame!</i></a>
+              <br>
+              <a href="https://github.com/barrycumbie/literate-dollop-superGame" target="_blank" class="btn btn-secondary">&lt;<i class="bi bi-github">source code&gt;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card shadow-sm text-center" style="min-width: 180px; aspect-ratio: 1 / 1;">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-lightbulb display-4 mb-2 text-primary"></i>
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text small">Description</p>
+          </div>
+        </div>
+        <div class="card shadow-sm text-center" style="min-width: 180px; aspect-ratio: 1 / 1;">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-lightbulb display-4 mb-2 text-primary"></i>
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text small">Description</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <h2 class="text-primary header-bg"><i class="bi bi-link-45deg"></i> Resources</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="#"><i class="bi bi-link-45deg"></i> Resource Link 1</a></li>
+        <li class="list-group-item"><a href="#"><i class="bi bi-link-45deg"></i> Resource Link 2</a></li>
+        <li class="list-group-item"><a href="#"><i class="bi bi-link-45deg"></i> Resource Link 3</a></li>
+      </ul>
+    </div>
   </div>
-</div> <!-- closes big container -->
+</div>
+
 
 
   <footer class="bg-body-tertiary text-center text-lg-start" style="position:fixed; bottom: 0px">
   <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2025 Copyright:
-      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
+      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a> |
+      <a class="text-body" target="_blank" href="https://validator.nu/?doc=https%3A%2F%2Fbarrycumbie.github.io%2Fbarrycumbie%2F">check the validity of this page</a> |
+      <a class="text-body" target="_blank" href="https://wave.webaim.org/report#/https://barrycumbie.github.io/barrycumbie/">check the accessibility of this page</a> 
+    </div>   
     <!-- Copyright -->
   </footer>
 
