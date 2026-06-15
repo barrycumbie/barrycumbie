@@ -3,7 +3,7 @@
 
 > I'm all about getting our students equipped to start their careers, building full-stack, data-driven, RESTful API, MVC, SPAs & the Agile SysDev Approach.  
 
-<p align="left"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> [LinkedIn Profile](https://www.linkedin.com/in/barrycumbie/) | [UNAs CSIS Group](https://www.linkedin.com/groups/12058862/)
+<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> [LinkedIn Profile](https://www.linkedin.com/in/barrycumbie/) | [UNAs CSIS Group](https://www.linkedin.com/groups/12058862/)
 
 
 ### Skills  
