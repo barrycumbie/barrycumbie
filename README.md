@@ -1,4 +1,4 @@
-# <p align="left"> <a href="https://www.github.com/barrycumbie" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>  Barry A. Cumbie
+# a href="https://www.github.com/barrycumbie" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>  Barry A. Cumbie
 ##  Information Systems Professor @ The University of North Alabama 
 
 > I'm all about getting our students equipped to start their careers, building full-stack, data-driven, RESTful API, MVC, SPAs & the Agile SysDev Approach.  
