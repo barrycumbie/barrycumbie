@@ -8,7 +8,7 @@
 
 ### projects
 
-- check out my idea repository, 🧠🪣 brain bucket [app] [repo](https://github.com/barrycumbie/charlie-brain-bucket)
+- check out my idea repository, 🧠🪣 brain bucket <a target="_blank" href="https://barrycumbie.github.io/charlie-brain-bucket/">app</a> | <a target="_blank" href="https://github.com/barrycumbie/charlie-brain-bucket">repo</a> 
 
 ### Skills  
 
